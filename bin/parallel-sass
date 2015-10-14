@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+/**
+ * Runs asyncronous and parallel Sass processes.
+ *
+ * Provides high-performance processing of a large numbers of sass files.
+ *
+ * @author Oliver Erdmann, <o.erdmann@finaldream.de>
+ * @since 12.10.15
+ */
+
+'use strict';
+
+var ParallelSass = require('../lib/ParallelSass');
+var CliSupport   = require('../lib/CliSupport');
+var pkgJson      = require('../package.json');
+
+var options = CliSupport.parseCLI(process.argv, pkgJson);
+
+var app = new ParallelSass(options);
+app.run();

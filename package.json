@@ -1,0 +1,28 @@
+{
+  "name": "parallel-sass",
+  "version": "0.1.0",
+  "description": "Runs asyncronous and parallel Sass processes. Provides high-performance processing of a large numbers of sass files.",
+  "main": "index.js",
+  "bin": {
+    "parallel-sass": "bin/parallel-sass"
+},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/finaldream/parallel-sass.git"
+  },
+  "keywords": [ "sass", "performance", "threads", "parallel", "asynchron" ],
+  "author": "Oliver Erdmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finaldream/parallel-sass/issues"
+  },
+  "homepage": "https://github.com/finaldream/parallel-sass#readme",
+  "dependencies": {
+    "node-sass": "^3.3.3",
+    "commander": "^2.8.1",
+    "lodash": "^3.10.1"
+  }
+}
