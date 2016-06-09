@@ -1,6 +1,6 @@
 {
   "name": "parallel-sass",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Runs asyncronous and parallel Sass processes. Provides high-performance processing of a large numbers of sass files.",
   "main": "index.js",
   "bin": {
@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/finaldream/parallel-sass#readme",
   "dependencies": {
-    "node-sass": "^3.3.3",
+    "node-sass": "^3.7.0",
     "commander": "^2.8.1",
-    "lodash": "^3.10.1"
+    "lodash": "^4.13.1"
   }
 }
